@@ -1,9 +1,10 @@
 import "./App.css";
+import WelcomText from "./components/welcome-text";
 
 function App() {
   return (
     <div className="App">
-      <p>This is sunil</p>
+      <WelcomText name="Sunil" />
     </div>
   );
 }
